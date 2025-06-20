@@ -383,7 +383,6 @@ footer{
   white-space: nowrap;
   position: relative;
 }
-
 .logos:before, .logos:after {
   position: absolute;
   top: 0;
@@ -423,7 +422,7 @@ footer{
     width: 45%;
   }
 
-  .blogs h2 {
+  .blogs h2, .private-label h2 {
     font-size: 2.5rem;
   }
 
@@ -437,7 +436,7 @@ footer{
     width: 100%;
   }
 
-  .blogs h2 {
+  .blogs h2, .private-label h2 {
     font-size: 2rem;
   }
 
@@ -495,5 +494,27 @@ footer{
  .product{
   display: block;
  }
- 
 }
+
+.private-label {
+  background-color: #fff;
+  padding: 80px 0;
+  /*text-align: center;*/
+  background: linear-gradient(135deg, #F9F9F9, #F2E2C4); /* Soft Beige Gradient */
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  align-items: center;
+
+}
+.private-label p {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+.private-label h2 {
+  font-size: 3rem;
+  color: #333333; /* Dark Charcoal */
+  margin-bottom: 10px;
+  font-family:"Lucida Hancwriting", "Lucida Handwriting", cursive;
+}
+
